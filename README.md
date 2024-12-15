@@ -15,7 +15,7 @@ Live demo on [Streamlit](https://textsummarizer-based-on-llm.streamlit.app/).
 
 ## Screenshot:
 
-![App Screenshot](https://github.com/gaurav7916/text_summarizer/screenshot_textsummarizer.png)
+![App Screenshot](https://github.com/gaurav7916/text_summarizer/blob/main/screenshot_textsummarizer.png)
 
 ### Installation and Local Setup:
 
