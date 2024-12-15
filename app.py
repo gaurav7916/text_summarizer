@@ -117,7 +117,7 @@ def detect_language(text):
 # App layout
 st.markdown("<h1 style='font-family: monospace, sans-serif; color: #007bff; text-align: center; font-size: 30px'>Text Summarizer (Multilingual) 📝</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='font-family: Arial, sans-serif; color: #E2F1D1 ; font-size: 18px'>Enter your text directly or upload a text/PDF/image file below, to create a concise summary 🧠</h3>", unsafe_allow_html=True)
-st.write("**Uses Transformer Model: T5**")
+st.markdown("<h3 style='font-family: Arial, sans-serif; color: #E2F1D1 ; font-size: 12px'>Uses HuggingFace Transformer Model: T5</h3>", unsafe_allow_html=True)
 
 # Sidebar input method selection
 st.sidebar.write("### Input Method")
