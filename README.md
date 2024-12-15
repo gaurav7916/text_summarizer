@@ -4,15 +4,14 @@
 
 ## Features
 
-- Summarize text input directly
-- Summarize content from uploaded PDF, TXT, and image files
-- Detect and handle multiple languages
-- Translate summarized text to English
+- Summarize text input directly from TXT PDF, and image files.
+- Detect and multiple languages support.
+- Translate summarized text to English.
 - Chat-like prompt system for refining summaries
 
 ## Demo
 
-You can try the live demo on [Streamlit Cloud](https://llm-based-text-summarizer.streamlit.app/).
+Live demo on [Streamlit](https://textsummarizer-based-on-llm.streamlit.app/).
 
 ## Screenshots
 
