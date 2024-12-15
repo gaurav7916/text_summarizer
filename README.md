@@ -1,6 +1,6 @@
 ## Text Summarizer (Multilingual)
 
-**Text Summarizer (Multilingual)📝** is a web application that summarizes text, PDFs, and images in multiple languages using a T5 transformer model. The application is built with Streamlit, EasyOCR, and Hugging Face Transformers.
+**Text Summarizer (Multilingual)📝** is a web app that summarizes text, PDFs, images in multiple languages using a T5 transformer model. The application is built with Streamlit, EasyOCR, and Hugging Face Transformers.
 
 ## Features:
 
