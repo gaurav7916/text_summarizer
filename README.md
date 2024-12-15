@@ -2,23 +2,22 @@
 
 **Text Summarizer (Multilingual)📝** is a web application that summarizes text, PDFs, and images in multiple languages using a T5 transformer model. The application is built with Streamlit, EasyOCR, and Hugging Face Transformers.
 
-## Features
+## Features:
 
 - Summarize text input directly from TXT PDF, and image files.
 - Detect and multiple languages support.
 - Translate summarized text to English.
 - Chat-like prompt system for refining summaries
 
-## Demo
+## Demo:
 
 Live demo on [Streamlit](https://textsummarizer-based-on-llm.streamlit.app/).
 
-## Screenshots
+## Screenshot:
 
-![App Screenshot](https://github.com/gaurav7916/LLM-Based-Text-Summarizer/blob/main/LLM1.png)
-![App Screenshot](https://github.com/gaurav7916/LLM-Based-Text-Summarizer/blob/main/LLM2.png)
+![App Screenshot](https://github.com/gaurav7916/textsummarizer/screenshot_textsummarizer.png)
 
-### Installation and Local Setup
+### Installation and Local Setup:
 
 1. **Clone the repository:**
 
