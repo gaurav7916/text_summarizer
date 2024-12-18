@@ -22,7 +22,7 @@ Live demo on [Streamlit](https://textsummarizer-based-on-llm.streamlit.app/).
 1. **Clone the repository:**
 
    ```sh
-   git clone [https://github.com/gaurav7916/text-summarizer.git](https://github.com/gaurav7916/text_summarizer.git)
+   git clone https://github.com/gaurav7916/text_summarizer.git
    cd text-summarizer
    ```
 
