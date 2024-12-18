@@ -22,8 +22,8 @@ Live demo on [Streamlit](https://textsummarizer-based-on-llm.streamlit.app/).
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/gaurav7916/llm-based-text-summarizer.git
-   cd LLM-Based-Text-Summarizer
+   git clone [https://github.com/gaurav7916/text-summarizer.git](https://github.com/gaurav7916/text_summarizer.git)
+   cd text-summarizer
    ```
 
 2. **Create and activate a virtual environment:**
