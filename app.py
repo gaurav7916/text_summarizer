@@ -125,7 +125,7 @@ input_method = st.sidebar.radio("Choose input method:", ("Text Input", "Upload F
 
 if input_method == "Text Input":
     # Text input
-    user_input = st.text_area("**Enter your text here:**", height=500)
+    user_input = st.text_area("**Enter your text here:**", height=150)
 
     if user_input:
         file_text = user_input
