@@ -73,7 +73,7 @@ def summarize_text(text, prompts):
     
     tokenized_text = tokenizer.encode(combined_text, return_tensors="pt", max_length=1024, truncation=True, padding=True)
     
-    summary_ids = model.generate(tokenized_text, max_length=1000, num_beams=4, early_stopping=True)
+    summary_ids = model.generate(tokenized_text, max_length=1000, num_beams=4)
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
     
     return summary
