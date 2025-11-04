@@ -73,7 +73,7 @@ def summarize_text(text, prompts):
     
     tokenized_text = tokenizer.encode(combined_text, return_tensors="pt", max_length=512, truncation=True, padding=True)
     
-    summary_ids = model.generate(tokenized_text, max_length=150, num_beams=4, early_stopping=True)
+    summary_ids = model.generate(tokenized_text, max_length=500, num_beams=4, early_stopping=True)
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
     
     return summary
@@ -125,7 +125,7 @@ input_method = st.sidebar.radio("Choose input method:", ("Text Input", "Upload F
 
 if input_method == "Text Input":
     # Text input
-    user_input = st.text_area("**Enter your text here:**", height=150)
+    user_input = st.text_area("**Enter your text here:**", height=500)
 
     if user_input:
         file_text = user_input
